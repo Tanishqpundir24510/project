@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "324466508327",
+    "firebase_url": "https://auth-ac6db.firebaseio.com",
+    "project_id": "auth-ac6db",
+    "storage_bucket": "auth-ac6db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324466508327:android:73e252cd142d0d09c10402",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324466508327-h0u40d97ht8f06aghnl6t30ea8bdpav1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqyBulJ354AJdcomT7rgqy6BZwyfThrnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324466508327-h0u40d97ht8f06aghnl6t30ea8bdpav1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

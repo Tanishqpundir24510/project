@@ -31,6 +31,7 @@
             android:columnOrderPreserved="false">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/disease"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -53,7 +54,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:fontFamily="sans-serif-smallcaps"
-                        android:text="Farmer"
+                        android:text="Diseases"
                         android:textColor="@color/black"
                         android:textSize="12sp"
                         android:visibility="visible"
@@ -62,6 +63,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/tools"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -92,6 +94,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/agriculture"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -121,6 +124,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/soil"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -181,6 +185,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/shopping"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -211,6 +216,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/about"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -241,6 +247,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/signout"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -255,7 +262,7 @@
                     <ImageView
                         android:layout_width="37dp"
                         android:layout_height="35dp"
-                        android:src="@drawable/setting"
+                        android:src="@drawable/user"
                         android:layout_margin="12dp"/>
 
                     <TextView
@@ -263,7 +270,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:fontFamily="sans-serif-smallcaps"
-                        android:text="setting"
+                        android:text="sign out"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
 
