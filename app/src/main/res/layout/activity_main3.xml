@@ -94,7 +94,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/agriculture"
+                android:id="@+id/crops"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -124,7 +124,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/soil"
+                android:id="@+id/agriculture"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -155,6 +155,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/soil"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -185,7 +186,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/shopping"
+                android:id="@+id/setting"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="12dp"
@@ -200,12 +201,12 @@
                     <ImageView
                         android:layout_width="37dp"
                         android:layout_height="35dp"
-                        android:src="@drawable/shopping"
+                        android:src="@drawable/setting"
                         android:layout_margin="12dp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Shopping"
+                        android:text="Setting"
                         android:textColor="@color/black"
                         android:fontFamily="sans-serif-smallcaps"
                         android:textSize="12sp"

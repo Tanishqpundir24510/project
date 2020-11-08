@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".forgotpassword"></activity>
+        <activity android:name=".soil"></activity>
+        <activity android:name=".Tools" />
+        <activity android:name=".agriculture" />
+        <activity android:name=".about" />
+        <activity android:name=".crops" />
+        <activity android:name=".diseases" />
+        <activity android:name=".forgotpassword" />
         <activity android:name=".MainActivity4" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity2" />

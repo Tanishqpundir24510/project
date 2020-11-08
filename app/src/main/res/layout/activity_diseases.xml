@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".diseases">
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISEASES"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n1.Diseases of Wheat:\n"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wheat"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="\nDifferent Types of Wheat Rust:\n\nWheat rust can be divided into three types:\n"
+           android:textStyle="bold"
+           android:textSize="25sp"
+           android:textColor="@color/black"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/rust"
+           android:textSize="20sp"
+           android:textColor="@color/black"
+           />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\ni. Yellow Rust:\n"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yellow"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="\nWeather conditions favourable for the appearance of yellow rust are given below:\n"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wey"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="\nii.Brown Rust:\n"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/brown"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\nWeather conditions favourable for its multiplication are given below:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/brc"
+           android:textColor="@color/black"
+           android:textSize="20sp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\niii. Black Rust\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/blackr"
+           android:textColor="@color/black"
+           android:textSize="20sp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\nFavourable weather conditions for its multiplication are given below:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/brco"
+           android:textColor="@color/black"
+           android:textSize="20sp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\n2. Diseases of Rice:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\ni. Blast Disease of Rice:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\nThe weather conditions favourable for the incidence of disease are given below:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="@string/blarot"
+           android:textSize="20sp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\nii. Stem Rot of Rice:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\nFollowing weather conditions are favourable for the incidence of the disease:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="@string/stem"
+           android:textSize="20sp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\niii. Flag Smut of Rice:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="\nWeather conditions favourable for the incidence of the disease are given below:\n"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:text="@string/stem"
+           android:textSize="20sp"
+           />
+
+
+
+
+
+
+
+   </LinearLayout>
+
+
+    </ScrollView>
