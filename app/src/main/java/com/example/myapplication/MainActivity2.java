@@ -24,7 +24,7 @@ import org.w3c.dom.Text;
 
 public class MainActivity2 extends AppCompatActivity {
     private Button b,b1;
-    private TextView fp;
+    private TextView fp,f1;
     private EditText email,pass;
     private FirebaseAuth mAuth;
     private ProgressBar pro;
@@ -35,6 +35,13 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         b=(Button) findViewById(R.id.button);
         b1=(Button) findViewById(R.id.button1);
+        f1=(TextView)findViewById(R.id.textView6);
+        f1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openh4();
+            }
+        });
         b.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v)
@@ -67,7 +74,9 @@ public class MainActivity2 extends AppCompatActivity {
         Intent i=new Intent(MainActivity2.this,forgotpassword.class);
         startActivity(i);
     }
-
+private void openh4()
+{Intent  i=new Intent(MainActivity2.this,MainActivity3.class);
+startActivity(i);}
     public void openh()
     {
         userlogin();
